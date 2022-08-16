@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="download.jpeg" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>text books</title>
+    <p>
+      <a class="navbaricon" href="index.html"
+        ><button class="navbaricons" type="button">Home</button></a
+      >
+      <a class="navbaricon" href="index.html"
+        ><button class="navbaricons" type="button">back</button></a
+      >
+    </p>
+    <style>
+      .bookeng {
+        width: 182px;
+        height: 182px;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-left: 20px;
+        transition: 0.4s;
+        background-color: aqua;
+      }
+      .bookeng:hover {
+        width: 195px;
+        height: 195px;
+        border: 2px solid red;
+        filter: brightness(80%);
+      }
+      .title_subjects {
+        margin-left: 30px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="title_subjects">English</p>
+      <a href="English.zip" download
+        ><button class="bookeng" type="button">Englishbook</button></a
+      >
+
+    <a href="Mathematics.zip" download><button class="bookeng">Mathematics book</button></a>
+   <a href="Hindi.zip" download><button class="bookeng">Hindi book</button></a>
+    <a href="Science.zip" download><button class="bookeng"> Science book </button> </a>
+    <a href="Social Science.zip" download><button class="bookeng">Social Science book</button></a>
+    <a href="class 8th Tamil_CBSE (1).pdf" download><button class="bookeng">Tamil</button></a>
+  </body>
+</html>
